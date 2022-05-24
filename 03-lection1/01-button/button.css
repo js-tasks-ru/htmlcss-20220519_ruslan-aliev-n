@@ -1,15 +1,4 @@
 .button {
-    /* Vars */
-    --btn-primary-color: var(--white);
-    --btn-primary-bg: var(--blue-1);
-    --btn-primary-hover-bg: var(--blue-2);
-    --btn-secondary-bg: var(--purple-1);
-    --btn-secondary-hover-bg: var(--purple-2);
-    --btn-alternate-bg: var(--white);
-    --btn-alternate-bc: var(--grey-3);
-    --btn-alternate-color: var(--grey-4);
-    --btn-alterbate-hover-bc: var(--black);
-
     /* Reset */
     background: none;
     border: 0;
@@ -25,8 +14,7 @@
     line-height: 19px;
     text-align: center;
     padding: 15px 15px 14px;
-    width: 182px;
-    color: var(--btn-primary-color);
+    color: var(--white);
     transition: opacity 200ms ease-in-out,
                 background-color 200ms ease-in-out,
                 border-color 200ms ease-in-out;
@@ -36,38 +24,37 @@
 /* Disabled */
 .button:disabled {
     opacity: 0.5;
-    cursor: default;
     pointer-events: none;
 }
 
 /* Primary */
 .button_primary {
-    background-color: var(--btn-primary-bg);
+    background-color: var(--blue-1);
 }
 
 .button_primary:hover,
 .button_primary:active {
-    background-color: var(--btn-primary-hover-bg);
+    background-color: var(--blue-2);
 }
 
 /* Secondary */
 .button_secondary {
-    background-color: var(--btn-secondary-bg);
+    background-color: var(--purple-1);
 }
 
 .button_secondary:hover,
 .button_secondary:active {
-    background-color: var(--btn-secondary-hover-bg);
+    background-color:  var(--purple-2);
 }
 
 /* Alternate */
 .button_alternate {
-    background-color: var(--btn-alternate-bg);
-    color: var(--btn-alternate-color);
-    border: 1px solid var(--btn-alternate-bc);
+    background-color: var(--white);
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
 }
 
 .button_alternate:hover,
 .button_alternate:active {
-    border-color: var(--btn-alterbate-hover-bc);
+    border-color: var(--black);
 }
