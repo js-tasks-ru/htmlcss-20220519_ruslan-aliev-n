@@ -1,3 +1,5 @@
+.accordion {}
+
 .accordion__item {
     font-family: 'Inter';
     font-style: normal;
@@ -10,7 +12,6 @@
     margin-bottom: 8px;
     box-sizing: border-box;
     cursor: pointer;
-    position: relative;
     max-width: 579px;
 }
 
