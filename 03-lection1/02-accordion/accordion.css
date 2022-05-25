@@ -23,7 +23,7 @@
     transform: rotate(180deg);
 }
 
-.accordion__title:last-child {
+.accordion__item:last-child {
     margin-bottom: 0;
 }
 
