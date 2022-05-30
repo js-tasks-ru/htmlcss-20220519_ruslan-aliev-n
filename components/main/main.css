@@ -4,3 +4,10 @@
     background-color: #F9FAFC;
     padding: 100px 0 100px;
 }
+
+.main__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
