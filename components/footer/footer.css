@@ -4,7 +4,8 @@
 }
 
 .footer__title,
-.footer__text {
+.footer__text,
+.footer__title_page-detail {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     color: var(--black);
@@ -24,4 +25,18 @@
     font-size: 16px;
     line-height: 24px;
     max-width: 640px;
+}
+
+.footer_page-detail {
+    padding: 71px 0 56px;
+    background-color: #F9FAFC;
+}
+
+.footer__title_page-detail {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
 }
