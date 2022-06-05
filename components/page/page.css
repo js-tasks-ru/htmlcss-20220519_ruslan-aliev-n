@@ -1,1 +1,8 @@
-.page {}
+.page {
+    height: 100%;
+}
+
+.page_detail {
+    display: grid;
+    grid-template-rows: auto 1fr;
+} 

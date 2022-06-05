@@ -11,3 +11,15 @@
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.main_page-detail {
+    border: none;
+    background-color: #F9FAFC;
+    padding: 36px 0;
+}
+
+.main_page-detail .main__inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 56px;
+}
