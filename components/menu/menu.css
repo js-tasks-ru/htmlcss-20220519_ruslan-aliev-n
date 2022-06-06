@@ -1,6 +1,7 @@
 .menu {
     width: 229px;
     text-align: left;
+    display: none;
 }
 
 .menu__title,
@@ -35,4 +36,10 @@
 
 .menu__nav-item_active {
     color: #D84910;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
 }
