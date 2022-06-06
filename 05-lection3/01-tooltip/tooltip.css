@@ -5,6 +5,9 @@
 
 .tooltip__trigger {
     cursor: pointer;
+}
+
+.tooltip__trigger svg {
     width: 24px;
     height: 24px;
 }

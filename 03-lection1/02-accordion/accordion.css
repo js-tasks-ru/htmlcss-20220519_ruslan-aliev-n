@@ -1,7 +1,7 @@
 .accordion {}
 
 .accordion__item {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -32,6 +32,7 @@
     outline: none;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .accordion__title::marker,
@@ -40,6 +41,9 @@
 }
 
 .accordion__icon {
+    fill: none;
+    width: 18px;
+    height: 10px;
     transition: transform 200ms ease-in-out;
 }
 
