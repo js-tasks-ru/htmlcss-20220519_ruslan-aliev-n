@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.modal__button-close svg {
+.modal__button-close-icon {
     width: 16px;
     height: 16px;
     fill: none;
