@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
-    <body>
+    <body style="display: flex; gap: 30px; flex-direction: column;">
+        <label class="form-group">
+            <span class="form-group__label">default</span>
+            <div class="form-group__input-wrapper">
+                <input class="form-group__input" type="text" placeholder="Placeholder" />
+            </div>
+        </label>
 
+        <label class="form-group form-group_success">
+            <span class="form-group__label">success</span>
+            <div class="form-group__input-wrapper">
+                <input class="form-group__input" type="text" placeholder="Placeholder" />
+            </div>
+        </label>
+
+        <label class="form-group form-group_invalid">
+            <span class="form-group__label">invalid</span>
+            <div class="form-group__input-wrapper">
+                <input class="form-group__input" type="text" placeholder="Placeholder" />
+            </div>
+        </label>
+
+        <label class="form-group">
+            <span class="form-group__label">disabled</span>
+            <div class="form-group__input-wrapper">
+                <input class="form-group__input" type="text" placeholder="Placeholder" disabled />
+            </div>
+        </label>
     </body>
 </html>
