@@ -22,10 +22,6 @@
     margin-bottom: 4px;
 }
 
-.form-group__input-wrapper {
-    position: relative;
-}
-
 .form-group__input {
     box-sizing: border-box;
     width: 100%;
