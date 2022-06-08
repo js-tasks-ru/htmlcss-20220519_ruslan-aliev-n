@@ -1,10 +1,13 @@
 .checkbox {
     position: relative;
+    display: inline-block;
 }
 
 .checkbox__input {
     position: absolute;
     clip: rect(0,0,0,0);
+    top: 0;
+    left: 0;
 }
 
 .checkbox__state {
