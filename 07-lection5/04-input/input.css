@@ -38,6 +38,8 @@
     color: var(--grey-4);
     text-overflow: ellipsis;
     outline: none;
+    background-repeat: no-repeat;
+    background-position: center right 16px;
 }
 
 .form-group__input::placeholder {
@@ -56,30 +58,17 @@
     background: var(--grey-2);
 }
 
-.form-group__input-wrapper::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 16px;
-    height: 24px;
-    width: 24px;
-    transform: translateY(-50%);
-    display: none;
-}
-
-.form-group_success .form-group__input-wrapper::after {
-    display: block;
-    background: url(../../assets/images/check-circle-icon.svg);
-}
-
 .form-group_success .form-group__input,
 .form-group_invalid .form-group__input {
     padding-right: 38px;
 }
 
-.form-group_invalid .form-group__input-wrapper::after {
-    display: block;
-    background: url(../../assets/images/alert-triangle-icon.svg);
+.form-group_success .form-group__input {
+    background-image: url(../../assets/images/check-circle-icon.svg);
+}
+
+.form-group_invalid .form-group__input {
+    background-image: url(../../assets/images/alert-triangle-icon.svg);
 }
 
 .form-group_invalid .form-group__input {
