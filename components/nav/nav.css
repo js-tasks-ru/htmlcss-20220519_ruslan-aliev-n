@@ -1,0 +1,40 @@
+.nav {}
+
+.nav__list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+    white-space: nowrap;
+}
+
+.nav__link::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    top: calc(100% + 8px);
+    left: 0;
+    width: 100%;
+    background: var(--black);
+    display: none;
+}
+
+.nav__link_active {
+    color: var(--black);
+}
+
+.nav__link_active::after {
+    display: block;
+}

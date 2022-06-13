@@ -47,3 +47,7 @@
     border: 6px solid transparent;
     border-top: 4px solid #4263EB;
 }
+
+.tooltip_preview .tooltip__bubble{
+    display: block;
+}

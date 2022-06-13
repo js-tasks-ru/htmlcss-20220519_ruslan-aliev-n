@@ -1,6 +1,6 @@
 .header {
     background-color: var(--white);
-    padding: 16px 16px 69px;
+    padding: 16px 16px 10px;
     text-align: center;
 }
 
@@ -17,6 +17,7 @@
     color: var(--grey-4);
     margin: 0;
     text-align: left;
+    margin-bottom: 32px;
 }
 
 .header_page-detail {
@@ -30,7 +31,7 @@
 
 @media screen and (min-width: 768px) {
     .header {
-        padding: 25px 0 77px;
+        padding: 25px 0 10px;
         text-align: left;
     }
     
@@ -39,6 +40,7 @@
         font-size: 50px;
         line-height: 64px;
         color: var(--black);
+        margin-bottom: 40px;
     }
 
     .header_page-detail {
