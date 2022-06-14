@@ -11,3 +11,8 @@
     height: 100%;
     object-fit: cover;
 }
+
+.avatar_preview {
+    width: 200px;
+    height: 200px;
+}

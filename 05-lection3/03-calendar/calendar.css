@@ -65,3 +65,18 @@
     background: #4263EB;
     color: var(--white);
 }
+
+.calendar_preview {
+    max-width: 200px;
+    width: 200px;
+    min-width: 75px;
+    padding: 7%;
+}
+
+.calendar_preview .calendar__title {
+    font-size: 14px;
+}
+
+.calendar_preview .calendar__item {
+    font-size: 9px;
+}
