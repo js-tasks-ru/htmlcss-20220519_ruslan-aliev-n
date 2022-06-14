@@ -62,16 +62,18 @@
 }
 
 .modal_preview {
-    display: block;
+    display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal_preview .modal__content {
     position: relative;
     padding: 16px 32px;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(0, 0);
+    left: auto;
+    top: auto;
     width: 60%;
     border: 1px solid var(--grey-3);
 }
