@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./burger-menu.css">
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
+        <button class="burger-menu__button" id="burger-menu-open">
+            <svg class="burger-menu__button-icon">
+                <use href="../../assets/images/svg-sprite.svg#menu"></use>
+            </svg>
+        </button>
 
+
+        <div class="burger-menu" id="burger-menu">
+            <div class="burger-menu__window">
+                <div class="burger-menu__header">
+                    <button class="burger-menu__button burger-menu__button_close" id="burger-menu-close">
+                        <svg class="burger-menu__button-icon">
+                            <use href="../../assets/images/svg-sprite.svg#menu-close"></use>
+                        </svg>
+                    </button>
+                    <img class="burger-menu__logo" src="../../assets/images/logo-icon.svg" alt="Лого"/>
+                </div>
+                <div class="burger-menu__divider"></div>
+                <div class="menu menu_burger-menu">
+                    <h4 class="menu__title">Components</h4>
+                    <nav class="menu__nav">
+                        <li class="menu__nav-item">Modal</li>
+                        <li class="menu__nav-item">Tooltip</li>
+                        <li class="menu__nav-item">Avatar</li>
+                        <li class="menu__nav-item">Calendar</li>
+                        <li class="menu__nav-item menu__nav-item_active">Histogram</li>
+                        <li class="menu__nav-item">Custom form elements</li>
+                        <li class="menu__nav-item">Main page</li>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

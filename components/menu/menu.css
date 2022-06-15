@@ -38,6 +38,22 @@
     color: #D84910;
 }
 
+.menu_burger-menu {
+    display: block;
+}
+
+.menu_burger-menu .menu__title {
+    color: var(--grey-3);
+}
+
+.menu_burger-menu .menu__nav-item {
+    margin-bottom: 16px;
+}
+
+.menu_burger-menu .menu__nav-item:last-child {
+    margin-top: 72px;
+}
+
 @media screen and (min-width: 768px) {
     .menu {
         display: block;
