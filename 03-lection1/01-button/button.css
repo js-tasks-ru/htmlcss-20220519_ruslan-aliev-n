@@ -15,11 +15,11 @@
     text-align: center;
     padding: 15px 15px 14px;
     color: var(--white);
-    transition: opacity 200ms ease,
-                background-color 200ms ease,
-                border-color 200ms ease;
+    transition: opacity .2ms ease,
+                background-color .2ms ease,
+                border-color .2ms ease,
+                transform .2s ease;
     cursor: pointer;
-    transition: transform .2s linear;
 }
 
 .button:active {
