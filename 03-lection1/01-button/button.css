@@ -15,10 +15,15 @@
     text-align: center;
     padding: 15px 15px 14px;
     color: var(--white);
-    transition: opacity 200ms ease-in-out,
-                background-color 200ms ease-in-out,
-                border-color 200ms ease-in-out;
+    transition: opacity .2ms ease,
+                background-color .2ms ease,
+                border-color .2ms ease,
+                transform .2s ease;
     cursor: pointer;
+}
+
+.button:active {
+    transform: translateY(2px);
 }
 
 /* Disabled */
