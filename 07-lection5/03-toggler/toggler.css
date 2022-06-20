@@ -38,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transition: background .2s ease, border .2s ease;
 }
 
 .toggler__control::after {
@@ -47,17 +48,18 @@
     border-radius: 50%;
     background: var(--grey-2);
     border: 1px solid var(--white);
-}
-
-.toggler__input:checked ~ .toggler__state .toggler__control::after {
-    background: var(--white);
-    border-color: #4263EB;
+    transition: transform .2s ease;
 }
 
 .toggler__input:checked ~ .toggler__state .toggler__control {
     background: #4263EB;
     border: 1px solid #4263EB;
-    justify-content: flex-end;
+}
+
+.toggler__input:checked ~ .toggler__state .toggler__control::after {
+    background: var(--white);
+    border-color: #4263EB;
+    transform: translateX(calc(100% - 2px));
 }
 
 .toggler__input:focus ~ .toggler__state .toggler__title {
