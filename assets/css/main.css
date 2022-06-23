@@ -30,6 +30,15 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    /* Theme */
+    --bg-color-primary: #F9FAFC;
+    --bg-color-secondary: var(--white);
+    --bg-color-tertiary: #ECEFFD;
+    --font-color-primary: var(--black);
+    --font-color-secondary: var(--black);
+    --font-color-tertiary: var(--grey-3);
+    --border-color-primary: var(--grey-3);
 }
 
 body {

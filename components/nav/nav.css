@@ -16,7 +16,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--grey-3);
+    color: var(--font-color-tertiary);
     white-space: nowrap;
 }
 
@@ -27,12 +27,12 @@
     top: calc(100% + 8px);
     left: 0;
     width: 100%;
-    background: var(--black);
+    background: var(--font-color-primary);
     display: none;
 }
 
 .nav__link_active {
-    color: var(--black);
+    color: var(--font-color-primary);
 }
 
 .nav__link_active::after {

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<!-- Пример использования theme-changer -->
 <html lang="ru">
     <head>
         <style>
             html[data-theme-dark] {
-                background: #000;
+                --bg-color-primary: var(--grey-4);
+                --bg-color-secondary: var(--black);
+                --bg-color-tertiary: var(--blue-2);
+                --font-color-primary: var(--white);
+                --font-color-secondary: #ffffff75;
+                --font-color-tertiary: var(--grey-3);
             }
         </style>
         <script defer src="./theme-changer.js"></script>

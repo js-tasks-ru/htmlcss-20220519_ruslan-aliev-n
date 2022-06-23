@@ -1,6 +1,6 @@
 .footer {
     padding: 71px 0 136px;
-    background-color: var(--white);
+    background-color: var(--bg-color-secondary);
 }
 
 .footer__title,
@@ -8,7 +8,7 @@
 .footer__title_page-detail {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    color: var(--black);
+    color: var(--font-color-secondary);
     text-align: center;
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@
 
 .footer_page-detail {
     padding: 71px 0 56px;
-    background-color: #F9FAFC;
+    background-color: var(--bg-color-primary);
 }
 
 .footer_page-detail .footer__title {
@@ -38,5 +38,5 @@
     line-height: 18px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--grey-3);
+    color: var(--font-color-tertiary);
 }

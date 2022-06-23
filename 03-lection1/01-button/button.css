@@ -54,9 +54,9 @@
 
 /* Alternate */
 .button_alternate {
-    background-color: var(--white);
+    background-color: var(--bg-color-secondary);
     color: var(--grey-4);
-    border: 1px solid var(--grey-3);
+    border: 1px solid var(--border-color-primary);
 }
 
 .button_alternate:hover,

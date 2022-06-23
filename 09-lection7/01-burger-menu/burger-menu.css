@@ -50,7 +50,7 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background: #F9FAFC;
+    background: var(--bg-color-primary);
     padding: 0 17px;
 }
 
