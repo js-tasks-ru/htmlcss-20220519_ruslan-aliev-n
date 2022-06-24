@@ -30,7 +30,7 @@
 .toggler__control {
     position: relative;
     box-sizing: border-box;
-    background: var(--white);
+    background: var(--bg-color-secondary);
     border: 1px solid var(--grey-2);
     border-radius: 16px;
     width: 52px;
@@ -57,7 +57,7 @@
 }
 
 .toggler__input:checked ~ .toggler__state .toggler__control::after {
-    background: var(--white);
+    background: var(--bg-color-secondary);
     border-color: #4263EB;
     transform: translateX(calc(100% - 2px));
 }

@@ -43,7 +43,7 @@
 }
 
 .menu_burger-menu .menu__title {
-    color: var(--grey-3);
+    color: var(--font-color-tertiary);
 }
 
 .menu_burger-menu .menu__nav-item {

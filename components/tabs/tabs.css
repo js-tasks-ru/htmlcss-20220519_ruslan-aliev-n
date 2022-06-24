@@ -20,7 +20,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--grey-3);
+    color: var(--font-color-tertiary);
 }
 
 .tabs__label::after {
@@ -41,7 +41,7 @@
 #all-tab:checked ~ .tabs__scroller .tabs__label[for=all-tab],
 #complex-tab:checked ~ .tabs__scroller .tabs__label[for=complex-tab],
 #simple-tab:checked ~ .tabs__scroller .tabs__label[for=simple-tab] {
-    color: var(--black);
+    color: var(--font-color-secondary);
 }
 
 #all-tab:checked ~ .tabs__scroller .tabs__label[for=all-tab]::after,

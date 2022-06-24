@@ -1,5 +1,5 @@
 .histogram {
-    border: 1px solid var(--grey-3);
+    border: 1px solid var(--border-color-primary);
     border-radius: 8px;
     padding: 16px 24px 24px;
     box-sizing: border-box;
@@ -12,13 +12,17 @@
     margin-bottom: 39px;
 }
 
+.histogram__header-column {
+    text-align: left;
+}
+
 .histogram__title,
 .histogram__count,
 .histogram__link {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    color: var(--black);
+    color: var(--font-color-secondary);
 }
 
 .histogram__title {

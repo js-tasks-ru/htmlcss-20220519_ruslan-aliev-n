@@ -16,7 +16,7 @@
     transform: translate(-50%, -50%);
     z-index: 999;
     padding: 30px 40px;
-    background: var(--white);
+    background: var(--bg-color-secondary);
     border-radius: 8px;
     max-width: 428px;
 }
@@ -31,7 +31,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #334D6E;
+    color: var(--font-color-secondary);
     margin-bottom: 14px;
 }
 
@@ -39,7 +39,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: var(--grey-4);
+    color: var(--font-color-primary);
 }
 
 .modal__button-close {
@@ -75,5 +75,5 @@
     left: auto;
     top: auto;
     width: 60%;
-    border: 1px solid var(--grey-3);
+    border: 1px solid var(--border-color-primary);
 }
